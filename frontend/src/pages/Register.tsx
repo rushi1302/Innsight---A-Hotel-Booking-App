@@ -38,8 +38,6 @@ function Register() {
     reset();
   });
 
-  const cookie = document.cookie;
-  console.log(cookie);
 
   return (
     <form className="flex flex-col gap-7 m-6" onSubmit={onSubmit}>
